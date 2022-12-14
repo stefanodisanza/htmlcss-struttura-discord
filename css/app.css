@@ -50,3 +50,15 @@ header .row{
 .row-cols-4 > .col-50 {
 	flex-basis: 50%;
 }
+
+.debug .bg-blue{
+    background-color: #01008B;
+    min-height: 400px;
+    padding: 50px;
+}
+
+.debug .small{
+    min-height: 350px;
+    max-width: 700px;
+    background-color: #EE81ED;
+}
