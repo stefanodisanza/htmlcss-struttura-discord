@@ -39,6 +39,10 @@ header .row{
 
 }
 
+
+
+
+
 .row-cols-4 > .col {
     flex-basis: calc(100% / 4);
 }
@@ -126,3 +130,33 @@ header .row{
 .row-cols-6 > .salmone {
 	flex-basis: calc(100% / 6 * 2)
 }
+
+.debug footer{
+    background-color: #23272A;
+    border-top: 1px solid white;
+    padding: 30px;
+    
+}
+
+.debug .footer{
+    background-color: aquamarine;
+    padding: 20px 0 20px 0px;
+}
+
+
+.container .footer{
+    display: flex;
+}
+
+.row-cols-2{
+    justify-content: space-between;
+}
+
+.debug .logo-footer {
+    background-color: #FEC0CA;
+}
+
+.debug .bottone{
+    background-color: #FEC0CA;
+}
+
