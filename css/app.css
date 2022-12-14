@@ -13,7 +13,7 @@ img {
     margin: auto;
 }
 
-.debug .container {
+.debug .header {
     background-color: #DAA520;
 }
 
@@ -61,4 +61,30 @@ header .row{
     min-height: 350px;
     max-width: 700px;
     background-color: #EE81ED;
+}
+
+.debug .bg-white{
+    background-color: white;
+    min-height: 400px;
+    padding: 50px;
+}
+
+.debug .celeste{
+    background-color: #1D90FF;
+    min-height: 350px;
+
+}
+
+.debug .rosa{
+    background-color: #FEC0CA;
+    min-height: 350px;
+
+}
+
+.row-cols-3 > .col {
+    flex-basis: calc(100% / 3);
+}
+
+.row-cols-3 > .celeste {
+	flex-basis: calc(100% / 3 * 2)
 }
