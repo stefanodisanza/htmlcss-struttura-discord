@@ -22,10 +22,6 @@ img {
     padding: 20px;
 }
 
-.debug .row{
-    border: 2px dashed black;
-}
-
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -97,8 +93,36 @@ header .row{
 
 .reverse{
     display: flex;
+    flex-direction: row-reverse;
 }
 
-.row-cols-3 .reverse{
-    flex-direction: row-reverse;
+
+.debug .green{
+    background-color: #228B21;
+    min-height: 500px;
+}
+
+
+.debug .bg-black{
+    background-color: #23272A;
+    min-height: 400px;
+    padding: 50px;
+}
+
+.debug .salmone{
+    background-color: salmon;
+    min-height: 350px;
+}
+
+.debug .turchese{
+    background-color: turquoise;
+    min-height: 350px;
+}
+
+.row-cols-6 > .col {
+    flex-basis: calc(100% / 6);
+}
+
+.row-cols-6 > .salmone {
+	flex-basis: calc(100% / 6 * 2)
 }
