@@ -88,3 +88,17 @@ header .row{
 .row-cols-3 > .celeste {
 	flex-basis: calc(100% / 3 * 2)
 }
+
+.debug .bg-gray{
+    background-color: #D3D3D3;
+    min-height: 400px;
+    padding: 50px;
+}
+
+.reverse{
+    display: flex;
+}
+
+.row-cols-3 .reverse{
+    flex-direction: row-reverse;
+}
