@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	max-width: 100%;
+}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.debug .container {
+    background-color: #DAA520;
+}
+
+.debug header{
+    background-color: #ADD8E5;
+    padding: 20px;
+}
+
+.debug .row{
+    border: 2px dashed black;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.debug [class^=col] {
+    border: 2px dashed black;
+
+}
+
+.row-cols-4 > .col {
+    flex-basis: calc(100% / 4);
+}
+
+.row-cols-4 > .col-50 {
+	flex-basis: 50%;
+}
